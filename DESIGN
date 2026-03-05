@@ -1,1 +1,47 @@
+USE CASE DIAGRAM
+What is this diagram?
+This Use Case Diagram represents how different users interact with the SCHOLARITY system. It shows the main actors and the actions they can perform within the system boundary.
 
+Actors:
+
+STUDENT
+The student is the primary user of the system. Students can:
+Login/Register
+Select Academic Program
+View educational resources
+Download past papers or notes
+Access lecture videos
+Book appointment with tutor
+Submit queries
+
+The login/register function includes:
+Create login
+Delete login
+Update login
+
+Lecture videos include:
+Watch lecture
+Download lecture
+
+Query includes:
+Submit query
+
+TEACHER
+The teacher supports the system by:
+Uploading resources
+Resolving student queries
+
+ADMIN
+The admin manages the system by:
+Manage system
+Resolve queries
+
+System Boundary:
+All use cases are inside the system boundary which represents the SCHOLARITY platform. The actors are outside the boundary and interact with the system.
+
+Relationships:
+The diagram uses <<include>> to represent mandatory functions within login operations.
+It uses <<extend>> to represent optional or additional features such as watching lectures and resolving queries.
+
+Purpose of the Diagram:
+The purpose of this diagram is to clearly define the functional requirements of the system and show how each actor interacts with SCHOLARITY. It ensures that all required system functionalities are identified before development.
