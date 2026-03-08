@@ -45,3 +45,108 @@ It uses <<extend>> to represent optional or additional features such as watching
 
 Purpose of the Diagram:
 The purpose of this diagram is to clearly define the functional requirements of the system and show how each actor interacts with SCHOLARITY. It ensures that all required system functionalities are identified before development.
+
+
+CLASS DIAGRAM
+What is this diagram?
+The Class Diagram represents the structural design of the SCHOLARITY system. It illustrates the main classes of the system, their attributes, methods, and the relationships between them. This diagram helps in understanding how different components of the system interact with each other.
+
+Main Classes:
+
+USER
+The User class is the parent class of the system. It contains common attributes and functions shared by all users of the platform.
+
+Attributes:
+userID
+username
+password
+
+Methods:
+login()
+logout()
+
+STUDENT
+The Student class inherits from the User class. It represents students who use the platform to access educational materials and academic support.
+
+Attribute:
+academicProgram
+
+Methods:
+selectProgram()
+viewResources()
+downloadFiles()
+watchLecture()
+submitQuery()
+
+TEACHER
+The Teacher class also inherits from the User class. Teachers are responsible for uploading educational materials and assisting students.
+
+Attribute:
+department
+
+Methods:
+uploadResources()
+uploadLecture()
+manageAppointments()
+
+ADMIN
+The Admin class inherits from the User class and represents the system administrator who manages the overall platform.
+
+Attribute:
+adminLevel
+
+Methods:
+manageSystem()
+resolveQuery()
+manageUserLogins()
+
+RESOURCE
+The Resource class represents educational materials available in the system.
+
+Attributes:
+resourceID
+title
+category
+fileType
+
+Method:
+updateDetails()
+
+APPOINTMENT
+The Appointment class represents booking sessions between students and tutors.
+
+Attributes:
+appointmentID
+dateTime
+status
+
+Methods:
+confirmBooking()
+cancelBooking()
+
+QUERY
+The Query class represents questions submitted by students.
+
+Attributes:
+queryID
+message
+status
+
+Method:
+updateStatus()
+
+
+Relationships:
+The STUDENT, TEACHER, and ADMIN classes inherit from the USER class, demonstrating inheritance in the system.
+Teachers upload resources that are stored in the RESOURCE class.
+Students can view and download resources uploaded by teachers.
+Students can book appointments which are managed through the APPOINTMENT class.
+Students submit queries through the QUERY class and these queries can be resolved by the Admin.
+
+Purpose of the Diagram:
+The purpose of the class diagram is to define the structure of the SCHOLARITY system and demonstrate how different classes interact. It helps developers understand system organization before implementation.
+
+
+
+
+
