@@ -196,3 +196,58 @@ Each video card contains:
 - The number of views and video duration.
 
 
+UI SKETCHES
+What are these UI Sketches?
+These UI sketches represent the visual design of the SCHOLARITY platform. They demonstrate how the final user interface will appear to students, including layout styling, interface components, and user interaction elements.
+
+Dashboard Interface:
+The dashboard UI sketch presents the main user interface of the SCHOLARITY platform.
+
+Key elements:
+- A navigation bar positioned at the top of the interface for easy navigation.
+- A welcome message that greets the student and introduces the platform.
+- Primary action buttons such as "Explore Resources" and "Find a Tutor".
+- Activity summary cards displaying student engagement such as downloads, sessions booked, and videos watched.
+- Notification and upcoming session panels that provide important updates.
+
+This interface design helps students quickly access important academic tools and track their progress.
+
+Resources Interface:
+The resources UI sketch focuses on presenting educational materials in a clear and organized layout.
+
+Key elements:
+- A card based layout displaying multiple resources.
+- Subject tags and file type indicators that help categorize the materials.
+- Resource descriptions providing brief details about the content.
+- Download buttons allowing students to access the resources directly.
+
+This interface design improves usability by making it easy for students to locate and download study materials.
+
+Tutors Interface:
+The tutors UI sketch displays how tutor profiles appear within the platform.
+
+Key elements:
+- Tutor profile cards containing tutor photos, ratings, and teaching experience.
+- Subject expertise tags that indicate each tutor’s specialization.
+- Hourly tutoring rates and session information.
+- A prominent "Book Session" button for scheduling tutoring sessions.
+
+This interface allows students to easily compare tutors and book sessions for academic assistance.
+
+Video Lectures Interface:
+The video lectures UI sketch presents the visual design of the SCHOLARITY platform's video learning section.
+
+Key elements:
+- A navigation bar at the top of the page for easy navigation across the platform.
+- A large title section introducing the video lectures feature.
+- A search bar and filtering options that allow students to quickly locate specific lectures.
+- A card-based layout displaying available video lectures.
+
+Each lecture card visually displays:
+- A video thumbnail image.
+- The lecture title and short description.
+- The instructor’s name.
+- Subject and curriculum tags.
+- View count and video duration.
+
+This interface allows students to conveniently explore educational videos and watch lectures that support their academic learning.
