@@ -147,6 +147,52 @@ Purpose of the Diagram:
 The purpose of the class diagram is to define the structure of the SCHOLARITY system and demonstrate how different classes interact. It helps developers understand system organization before implementation.
 
 
+WIREFRAMES
+What are these Wireframes?
+These wireframes represent the structural layout of the SCHOLARITY web platform. They illustrate how different components of the interface are arranged before the final  visual design is applied. The wireframes focus on the placement of navigation menus, buttons, content sections, and user interaction elements to ensure a logical and user-friendly structure for the system.
 
+Home Page:
+The home page wireframe shows the main interface students see after logging into the system.
+
+This page includes:
+- A navigation bar containing the SCHOLARITY logo and main menu options such as Home, Resources, Tutors, and Video Lectures.
+- A welcome section that greets the user and provides a brief introduction to the platform.
+- Action buttons such as "Explore Resources" and "Find a Tutor" which allow users to quickly access the main features of the platform.
+- Information cards displaying user activity such as number of downloads, tutoring sessions booked, videos watched, and saved bookmarks.
+- Notification and upcoming session sections that keep students updated about important activities.
+
+Resources Page:
+The resources page wireframe illustrates how educational resources are organized and displayed within the system.
+
+This page includes:
+- The main navigation bar for consistent system navigation.
+- A grid layout that displays multiple educational resources in card format.
+- Each resource card contains the resource title, short description, subject tags, file type indicators, and file details.
+- A download button that allows students to easily access the selected resource.
+
+Tutors Page:
+The tutors page wireframe demonstrates how tutor profiles are presented to students.
+
+This page includes:
+- Tutor profile cards displayed in a structured grid layout.
+- Each tutor card includes a profile picture, tutor name, rating, and number of reviews.
+- Subject expertise tags showing the tutor’s specialization.
+- Pricing information indicating the hourly tutoring rate.
+- A "Book Session" button allowing students to schedule tutoring sessions.
+
+Video Lectures Page:
+The video lectures wireframe shows how recorded educational videos are organized and presented within the SCHOLARITY platform.
+
+This page includes:
+- A search bar that allows students to search for videos or instructors.
+- Filter options such as subject and education level to help students find relevant video lectures.
+- A grid layout displaying multiple video lecture cards.
+
+Each video card contains:
+- A video thumbnail preview.
+- The lecture title and brief description.
+- Instructor information.
+- Subject tags and curriculum level.
+- The number of views and video duration.
 
 
